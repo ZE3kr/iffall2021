@@ -1,9 +1,20 @@
 body {
     margin: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #666;
 }
 
-blockquote {
+h1, h2 {
+    color: white;
+}
+
+blockquote, figure {
     margin: 1em 0;
+}
+
+figure figcaption, .comment {
+    color: gray;
+    font-style: italic;
 }
 
 blockquote p {
@@ -11,5 +22,8 @@ blockquote p {
 }
 
 section {
-    margin: 3em 0;
+    margin: 1em 0;
+    border: 1px solid gray;
+    padding: 0.5em 1em;
+    background-color: #ffffff;
 }
