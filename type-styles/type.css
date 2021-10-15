@@ -65,3 +65,19 @@ p:nth-of-type(19) {
 p:nth-of-type(20) {
     text-transform: full-width;
 }
+
+p:nth-of-type(21) {
+    text-decoration: underline;
+}
+p:nth-of-type(22) {
+    text-decoration: underline dotted;
+}
+p:nth-of-type(23) {
+    text-decoration: underline dotted red;
+}
+p:nth-of-type(24) {
+    text-decoration: green wavy underline;
+}
+p:nth-of-type(25) {
+    text-decoration: underline overline #FF3028;
+}
