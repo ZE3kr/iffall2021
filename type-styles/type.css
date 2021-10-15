@@ -53,15 +53,15 @@ p:nth-of-type(15) {
 p:nth-of-type(16) {
     text-transform: capitalize;
 }
-p:nth-of-type(16) {
+p:nth-of-type(17) {
     text-transform: uppercase;
 }
-p:nth-of-type(16) {
+p:nth-of-type(18) {
     text-transform: lowercase;
 }
-p:nth-of-type(16) {
+p:nth-of-type(19) {
     text-transform: none;
 }
-p:nth-of-type(16) {
+p:nth-of-type(20) {
     text-transform: full-width;
 }
