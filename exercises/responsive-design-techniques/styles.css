@@ -1,0 +1,47 @@
+body {
+    max-width: 800px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+@media (min-width: 640px) {
+    html {
+        background-color: #eaf6ff;
+    }
+    h1 { font-size: 2.5rem; }
+}
+
+@media (max-width: 500px) {
+    h1 { font-size: 1.5rem; }
+}
+
+aside {
+    max-width: calc(100% - 20px);
+    width: 170px;
+    margin: 10px;
+    font-size: 0.8rem;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 0;
+    margin: 1rem -10px;
+}
+
+li {
+    width: 100%;
+    display: inline-block;
+}
+
+@media (min-width: 480px) {
+    li {
+        width: 50%;
+    }
+}
+
+@media (min-width: 640px) {
+    li {
+        width: 25%;
+    }
+}
